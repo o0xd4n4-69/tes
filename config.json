@@ -1,0 +1,94 @@
+{
+
+ "Account": {
+     "Username": "xxx",
+     "Password": "xxx"
+     },
+ "Target Profit": "5000.00000000",
+ "Target Win": "100000.00000000",
+ "Lose Target": "0.000000",
+ "Interval": "1",
+ "Config": [{
+
+     "Name Bet Set": "Happy Mining ðŸ¤‘",
+     "Base Bet": "0.1",
+     "Max Bet": "OFF",
+     "Chance": "80",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "80",
+          "Max": "82"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "0",
+              "If Lose": "1",
+              "If Win": "2"
+            }
+	        },
+     "If Win": "1.01",
+     "If Lose": "3.01",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.000001",
+     "Interval": "1"
+     },{
+
+     "Name Bet Set": "0.0001",
+     "Base Bet": "0.01",
+     "Max Bet": "Off",
+     "Chance": "80",
+     "Random Chance": {
+          "Toggle": "Off",
+          "Min": "80",
+          "Max": "81"
+        },
+     "Bet": {
+          "Bet": "low",
+          "Hi / Low": {
+              "Toggle": "off",
+              "If Lose": "1",
+              "If Win": "2"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.1",
+
+     "Interval": "1"
+     },{
+
+     "Name Bet Set": "3",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "80",
+     "Random Chance": {
+          "Toggle": "Off",
+          "Min": "80",
+          "Max": "81"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "On",
+              "If Lose": "1",
+              "If Win": "2"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2",
+     "Reset If Win": "2",
+     "Reset If Profit": "0",
+     "Interval": "1"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "1000",
+       "Wallet Address": "WALLET ADDRESS KALIAN",
+       "Amount": "100"
+      },
+  "User-Agent": "Android Phone / Chrome 61 [Mobile]: Mozilla/5.0 (Linux; Android 12.5; Marvel Xcore7 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36"
+
+}
